@@ -25,3 +25,4 @@ In this frontend challenge, you'll learn how to build interactive UI components 
 I hope you'll enjoy building this challenge.
 
 Feel free to share your solution on the website or on social media and tag [us](https://twitter.com/FrontendProHQ).
+# clipboard
