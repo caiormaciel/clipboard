@@ -15,7 +15,7 @@ body {
     
     display: flex;
     flex-direction: column;
-    width: 840px;
+    max-width: 840px;
     height: 420px;
     margin: 12% auto;
     border-radius: 40px;
@@ -34,21 +34,21 @@ body {
 
 #links img {
     background-color: rgba(217, 217, 217, 1);    
-    
+    border: 1px solid red;
     margin: 20px;
+    display: flex;
+    
     
 }
 
-
 #links {
     
-    height: 82px;
     display: flex;
-    gap: 36px;
+    gap: 32px;
     margin: 0px 79px 31px 89px;
     max-width: 672px;
-    
-    
+    border: 1px solid red;
+        
 }
 
 #links a {
@@ -56,10 +56,11 @@ body {
     width: 82px;
     background-color: rgba(217, 217, 217, 1);
     border-radius: 41px;
+    border: 1px solid red;
+
 }
 
 .box p {
-    
     font-size: 18px;
     width: 100px;
     margin: 0 655px 0px 89px;
@@ -68,17 +69,44 @@ body {
 
 .linkbox {
     display: flex;
-    width: 672px;
+    flex-wrap: wrap;
+    max-width: 672px;
     padding: 18px;
-    justify-content: center;
-    align-items: center;
     margin: 17px 79px 71px 89px;
-    gap: 106px;
     border-radius: 12px;
     background: #D9D9D9;
+    gap: 100px;
 }
 
 .linkbox a {
     text-decoration: none;
     font-weight: 700;
+    
+}
+
+
+
+@media screen and (max-width: 810px) {
+
+    .linkbox {
+        gap: 5px;
+    }
+
+    .linkbox span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #links {
+    flex-wrap:wrap;
+
+    }
+
+    .box {
+        height: 100%;
+        margin: 40px 15px 40px 15px;
+    }
+
+
+
 }
