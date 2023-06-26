@@ -119,8 +119,13 @@ body {
         width: 100%;
     }
 
+    .box p {
+        width: 100px;
+        margin: auto;
+    }
+
     #title {
-        min-width: 300px;
+        min-width: 258px;
         
     }
 
