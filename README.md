@@ -1,5 +1,10 @@
 ![Share Content Card Component](./design/desktop-cover.png)
 
+
+Desafio realizado para práticas de HTML, CSS e JS, nível iniciante.
+
+
+
 **Challenge Title**
 Share Content Card Component
 
